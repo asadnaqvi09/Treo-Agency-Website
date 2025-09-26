@@ -29,7 +29,8 @@ Currently frontend is **95% complete**, while backend is **incomplete (Work In P
 - **Backend:** Incomplete (WIP)
 
 ---
-
+## ▶️ Watch Project Demo
+- **▶️ Watch Project Demo** (https://www.loom.com/share/7d6f8bd019ee40d6ab7d14b7f35514e0?sid=c03d2377-5727-4471-9960-5dd344d3c447)
 ## ⚡ How to Run Locally
 
 ```bash
