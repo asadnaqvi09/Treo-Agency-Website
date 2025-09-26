@@ -1,0 +1,51 @@
+/* styles/global.css */
+.dots-blue {
+  position: relative;
+  padding-left: 1.5rem;
+  list-style: none; /* disable default bullet */
+}
+
+.dots-blue::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #3b82f6; /* Tailwind's blue-500 */
+  font-size: 1.75rem;
+  line-height: 1.5rem;
+}
+
+/* Ensure consistent card height and spacing */
+.service-card {
+  min-height: 300px; /* Adjust as needed to match the image */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.service-card p {
+  min-height: 48px; /* Fixed height for description */
+  margin-bottom: 1rem;
+}
+
+.service-card ul {
+  min-height: 96px; /* Fixed height for points list */
+  margin-bottom: 1rem;
+}
+
+.service-card .dots-blue {
+  /* Ensure bullet points align nicely */
+  margin-left: 0;
+}
+
+/* Hover effects */
+.service-card:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .service-card {
+    min-height: 250px;
+  }
+}

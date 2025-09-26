@@ -1,0 +1,62 @@
+import PortfolioImg from "../assets/images/PortfolioImg.png";
+
+export const Projects = [
+    {
+        id:1,
+        name:"AI Powered App",
+        Image: PortfolioImg,
+        category: "App Development",
+        desc: "Developed an AI-integrated e-commerce mobile app, providing personalized deals, automated customer support via chatbots, and seamless integration with payment gateways.",
+        liveLink: "https://www.ai-powered-app.com",
+        stack: [
+          { slug: "React Native" },
+          { slug: "Node.js" },
+          { slug: "OpenAI API" },
+        ],
+    },
+    {
+        id:2,
+        name:"Smart Chatbot System",
+        Image: PortfolioImg,
+        category: "Web Development",
+        desc: "Built a smart chatbot system for customer engagement, integrating natural language processing and machine learning to resolve common queries.",
+        liveLink: null,
+        stack: [{ slug: "Python" }, { slug: "Django" }, { slug: "Dialogflow" }],
+      },
+      {
+        id:3,
+        name:"E-Commerce Web App",
+        Image: PortfolioImg,
+        category: "Web Development",
+        desc: "Created a scalable e-commerce platform with features like real-time inventory updates, secure checkout, and user analytics dashboard.",
+        liveLink: null,
+        stack: [{ slug: "ReactJS" }, { slug: "Express" }, { slug: "MongoDB" }],
+      },
+      {
+        id:4,
+        name:"AI Chatbot",
+        Image: PortfolioImg,
+        category: "Web Development",
+        desc: "Built an AI chatbot for customer support, using natural language processing and machine learning to understand and respond to user queries.",
+        liveLink: null,
+        stack: [{ slug: "Python" }, { slug: "Flask" }, { slug: "TensorFlow" }],
+      },
+      {
+        id:5,
+        name:"AI Chatbot",
+        Image: PortfolioImg,
+        category: "Web Development",
+        desc: "Built an AI chatbot for customer support, using natural language processing and machine learning to understand and respond to user queries.",
+        liveLink: null,
+        stack: [{ slug: "Python" }, { slug: "Flask" }, { slug: "TensorFlow" }],
+      },
+      {
+        id:6,
+        name:"AI Chatbot",
+        Image: PortfolioImg,
+        category: "Web Development",
+        desc: "Built an AI chatbot for customer support, using natural language processing and machine learning to understand and respond to user queries.",
+        liveLink: null,
+        stack: [{ slug: "Python" }, { slug: "Flask" }, { slug: "TensorFlow" }],
+      },
+]
