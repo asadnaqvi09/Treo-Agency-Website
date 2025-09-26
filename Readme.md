@@ -37,7 +37,7 @@ Currently frontend is **95% complete**, while backend is **incomplete (Work In P
 git clone https://github.com/asadnaqvi09/Treo-Agency-Website.git
 
 # Navigate to the project folder
-cd repo-name
+cd Treo-Agency-Website
 
 # Install dependencies
 npm install
